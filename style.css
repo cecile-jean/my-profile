@@ -1,0 +1,92 @@
+/* Colors and fonts */
+body{
+	background: #feffde;
+	color: #5b8a72;
+	font-family: 'Playfair Display', serif; 
+	font-size: 16px;
+	font-weight: lighter;
+}
+h1, h2, h3{
+	font-family:'Poppins', sans-serif;
+}
+h1{
+	color: #52734d;
+	font-size: 32px;
+}
+h2{
+	color: #206a5d;
+	font-size: 24px;
+	font-weight: lighter;
+}
+a{
+	text-decoration: none;
+	color: #91c788;
+	font-weight: lighter;
+	font-family:'Poppins', sans-serif;
+}
+a:hover {
+	color: #ddffbc;
+}
+
+/* Custom design with class */
+
+.container{
+	width: 700px;
+	margin: 40px auto;
+}
+
+	@media (max-width: 760px){
+		.container{
+			width: 600px;
+		}
+	}
+
+	@media (max-width: 500px){
+		.container{
+			width: 400px;
+		}
+	}
+
+.card-white{
+	background-color: white; 
+	padding: 40px;
+	box-shadow: 0 10px 30px rgba(0,0,0,.1);
+	border-radius: 4px;
+	margin: 30px 0px;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	text-align: center;
+}
+.img-circle{
+	border-radius: 50%;
+	border: 2px solid rgba(0,0,0,0.1);
+}
+.btn-green{
+	background-color: #91c788;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+.btn-green:hover{
+	background-color: #206a5d;
+	color: white;
+}
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li{
+	display: inline;
+	padding: 10px;
+}
+.list-inline i {
+	font-size: 50px;
+}
+.list-inline i:hover {
+	color: #206a5d
+}
+
+/* Custom design with id */
+
+#introduction p{
+	margin-bottom: 40px;
+} 
